@@ -54,6 +54,8 @@ html{
     text-align: center;
     padding:11px 18px;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .btn:hover{
     background-color: #ccc;
@@ -154,7 +156,7 @@ html{
 #slider{
     margin-top: 46.5px;
     padding-top: 50%;
-    background-image: url('/assets/img/Slider/slider1.jpg');
+    background-image: url('../img/Slider/slider1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -173,6 +175,7 @@ html{
 }
 #slider .text-description{
     font-size: 15px;
+    text-shadow: 0 0 1px #000;
 }
 #content .content-section{
     width: 800px;
@@ -312,7 +315,7 @@ html{
 #footer .link a{
     text-decoration: none;
     color: #000;
-    font-size: 24px;
+    font-size: 20px;
 }
 #footer .link a:hover{
     opacity: 0.6;

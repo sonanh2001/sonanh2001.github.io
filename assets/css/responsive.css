@@ -1,5 +1,5 @@
 /* Tablet & Mobile */
-@media(max-width:1023px){
+@media(max-width:63.9375em){
     .btn{
         padding: 15px 16px;
     }
@@ -14,7 +14,7 @@
     }
     #footer .link a{
         margin: 0 10px;
-        font-size: 48px;
+        font-size: 30px;
     }
     #footer .copyright {
         padding: 12px 0;
